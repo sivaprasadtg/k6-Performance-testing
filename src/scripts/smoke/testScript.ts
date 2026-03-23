@@ -19,9 +19,11 @@ export default function () {
       }
     });
 
-  check(response, {
-    "status is 200": (r) => r.status === 200,
-    "body is not empty": (r) => r.body && r.body.length > 0,
+  group('Performance evaluation', () => {
+    check(response, {
+      "status is 200": (r) => r.status === 200,
+      "body is not empty": (r) => r.body && r.body.length > 0,
+    });
   });
   }
 
