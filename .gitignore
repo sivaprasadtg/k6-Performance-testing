@@ -1,0 +1,40 @@
+# Node output
+node_modules/
+
+# k6 compiled output
+output/
+
+# Performance run results
+results/*.json
+results/*.ndjson
+results/*.html
+summary.html
+
+# Environment files
+.env
+
+# System / editor files
+.DS_Store
+Thumbs.db
+.idea/
+/.editorconfig
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Logs
+*.logs
+mpn-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Typescript tooling
+*.tsbuildinfo
+
+/.pnp.*
+/.gitattributes

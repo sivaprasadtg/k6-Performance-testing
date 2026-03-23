@@ -1,0 +1,23 @@
+{
+  "name": "k6-Performance-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "build": "node tools/esbuild.config.mjs",
+    "start": "tsx tools/run.ts"
+  },
+  "packageManager": "yarn@4.9.2",
+  "devDependencies": {
+    "@types/k6": "^1.6.0",
+    "@types/node": "^25.5.0",
+    "esbuild": "^0.27.3",
+    "glob": "^13.0.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
